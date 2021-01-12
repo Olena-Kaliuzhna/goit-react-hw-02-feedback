@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding-top: 30px;
+  background-color: #cbd9ff;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+  border: 2px solid #152e70;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #97a7d1;
+}

@@ -1,0 +1,40 @@
+.list {
+  display: flex;
+  justify-content: center;
+}
+.item:not(:last-child) {
+  margin-right: 10px;
+}
+.button {
+  padding: 10px 15px;
+  background-color: #fff;
+  border: 1px solid #444242;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.button[name='good'] {
+  background-color: #6ce06cbf;
+}
+.button[name='good']:hover,
+.button[name='good']:focus {
+  background-color: #1f791fbf;
+}
+
+.button[name='neutral'] {
+  background-color: #dada40;
+}
+.button[name='neutral']:hover,
+.button[name='neutral']:focus {
+  background-color: #c2c209;
+}
+.button[name='bad'] {
+  background-color: #f94b4b;
+}
+.button[name='bad']:hover,
+.button[name='bad']:focus {
+  background-color: #ee0d0d;
+}
